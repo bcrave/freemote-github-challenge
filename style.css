@@ -71,6 +71,22 @@ h2 {
   display: inline-block;
 }
 
+.quantity .input-text.qty {
+  width: 35px;
+  height: 39px;
+  padding: 0 5px;
+  text-align: center;
+  background-color: transparent;
+  border: 1px solid #efefef;
+}
+
+.quantity.buttons_added {
+  text-align: left;
+  position: relative;
+  white-space: nowrap;
+  vertical-align: top;
+}
+
 .quantity.buttons_added input {
   display: inline-block;
   margin: 0;
