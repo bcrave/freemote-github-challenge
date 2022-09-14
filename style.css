@@ -71,6 +71,24 @@ h2 {
   display: inline-block;
 }
 
+.quantity.buttons_added input {
+  display: inline-block;
+  margin: 0;
+  vertical-align: top;
+  box-shadow: none;
+}
+
+.share {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+}
+
+.share img {
+  width: 10rem;
+  cursor: pointer;
+}
+
 .quantity.buttons_added .minus,
 .quantity.buttons_added .plus {
   padding: 7px 10px 8px;
