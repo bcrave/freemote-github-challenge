@@ -71,15 +71,6 @@ h2 {
   display: inline-block;
 }
 
-.quantity.buttons_added .minus,
-.quantity.buttons_added .plus {
-  padding: 7px 10px 8px;
-  height: 41px;
-  background-color: #ffffff;
-  border: 1px solid #efefef;
-  cursor: pointer;
-}
-
 .quantity.buttons_added .minus {
   border-right: 0;
 }
@@ -106,7 +97,7 @@ h2 {
 }
 
 .container {
-  width: 80%;
+  width: 40%;
   min-height: 280px;
   margin: 0 0;
 }
@@ -114,11 +105,6 @@ h2 {
 .selector {
   display: flex;
   border-bottom: 1px solid grey;
-}
-
-.tab {
-  padding: 10px;
-  cursor: pointer;
 }
 
 .tab-active {
