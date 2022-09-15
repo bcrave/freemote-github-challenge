@@ -175,3 +175,14 @@ h2 {
 #Description p {
   line-height: 1.3;
 }
+
+.recommended {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.recommended-product {
+  max-width: 30%;
+  object-fit: cover;
+}
